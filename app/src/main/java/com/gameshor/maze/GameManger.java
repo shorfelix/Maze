@@ -26,7 +26,7 @@ public class GameManger extends GestureDetector.SimpleOnGestureListener{
 
     public GameManger(){
         player= new Player();
-        maze=new Maze(5);
+        maze=new Maze(20);
         drawableList=new ArrayList<>();
         drawableList.add(player);
         drawableList.add(maze);

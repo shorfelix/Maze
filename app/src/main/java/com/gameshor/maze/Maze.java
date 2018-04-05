@@ -89,7 +89,7 @@ public class Maze implements Drawable {
     }
     @Override
     public void draw(Canvas canvas, Rect rect) {
-        float cellSize=(rect.left-rect.right)/size;
+        float cellSize=(float) (rect.right-rect.left)/size;
         for(int i=0;i<size;++i){
             for(int j=0;j<size;++j){
                 if(!array[i][j]){

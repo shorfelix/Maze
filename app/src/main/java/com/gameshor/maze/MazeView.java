@@ -20,7 +20,7 @@ public class MazeView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         gameManger.draw(canvas);
-    }
+     }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {

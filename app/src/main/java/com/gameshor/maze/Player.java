@@ -31,7 +31,7 @@ public class Player implements Drawable {
 
     }
     @Override
-    public void draw(Canvas canvas, Rect rect) {
+    public void draw(Canvas canvas, Rect r) {
         canvas.drawCircle(point.x+1,point.y+1,50,paint01);
     }
 }
